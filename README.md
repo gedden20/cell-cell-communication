@@ -44,14 +44,19 @@ Basophil, in allergic (type 2) inflammation.
 
 
 ## IntAct validation
-- IL4 and IL4R, Homo sapiens, in vitro
-- X-ray diffraction, PMID 10219247, direct interaction
-- ITC, PMID 18243101, direct interaction (Kd about 1 nM)
+- Pair examined: IL4 (P05112) and IL4R (P24394), Homo sapiens, in vitro
+- X-ray diffraction, PMID 10219247, direct interaction, MI score 0.81
+- ITC, PMID 18243101, direct interaction, MI score 0.81
+- IL2RG (P31785) also has records with IL4 and IL4R
 - Conclusion: direct physical binding is supported, but only in vitro.
 
 
-![intact](figures/04_intact_evidence.png)
+![intact molecules](figures/04a_intact_molecules.png)
 
+
+
+
+![intact evidence](figures/04_intact_evidence.png)
 
 
 ## Final model and interpretation
