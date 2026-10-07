@@ -1,0 +1,10 @@
+step,item,finding,source
+sender,IL4 in basophil,highest IL4 RNA among immune cells,HPA (HPA and Monaco datasets)
+ligand,IL4,secreted ligand and cytokine (consensus score 21),OmniPath
+receptor,IL4R,directed IL4 to IL4R interaction,OmniPath
+receiver,naive B cell,highest IL4R among immune cells,HPA (3 datasets)
+network,IL4/IL4R/IL2RG/JAK1/JAK3/STAT6,6 nodes and 15 edges with PPI p = 8.97e-14,STRING
+enrichment,interleukin-4-mediated signaling,FDR 2.6e-16,STRING (GO:0035771)
+enrichment,JAK-STAT signaling,FDR 4.96e-11,STRING (KEGG hsa04630)
+validation,IL4 and IL4R,direct interaction by X-ray diffraction (PMID 10219247),IntAct
+validation,IL4 and IL4R,direct interaction by ITC (PMID 18243101),IntAct
