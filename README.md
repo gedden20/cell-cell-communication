@@ -7,6 +7,7 @@ Can a basophil send an IL4 signal to a B cell, and what do the databases say abo
 
 ## Sender cell and context
 Sender cell: basophil
+
 Context: allergic (type 2) inflammation.
 
 ## Candidate ligand and sender-cell evidence
