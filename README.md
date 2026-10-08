@@ -87,15 +87,14 @@ Caution: I picked these six proteins because I already knew they belong to IL4 s
 ## IntAct validation
 Pair examined: IL4 (P05112) and IL4R (P24394), Homo sapiens. IntAct showed 87 records for my search. I read the first page (25 records).
 
-| Method | PMID | Interaction type | MI score |
-|---|---|---|---|
-| X-ray diffraction | 10219247 | direct interaction | 0.81 |
-| ITC | 18243101 | direct interaction | 0.81 |
-| SPA | 23597562 | physical association | 0.81 |
-| Anti-bait co-IP | 8266078 | association / physical association | 0.81 |
+| Method            | Source                         | Interaction type     | MI score |
+| ----------------- | ------------------------------ | -------------------- | -------- |
+| X-ray diffraction | Hage et al. (1999), PMID 10219247 | direct interaction | 0.81     |
+| ITC               | LaPorte et al. (2008), PMID 18243101 | direct interaction | 0.81  |
+| Anti-bait co-IP   | Russell et al. (1993), PMID 8266078 | association / physical association | 0.81 |
 
 - One annotation reports a Kd of 1.0 E-9 M for IL-4 binding IL-4Ralpha.
-- IL2RG also has records with IL4 and with IL4R.
+- IL2RG also has records with IL4 and with IL4R, consistent with IL2RG (the common gamma chain) being part of the type I IL-4 receptor (Russell et al., 1993; LaPorte et al., 2008).
 - Conclusion: the evidence supports direct physical binding between IL4 and IL4R. All records are in vitro. One record comment says the IL4 was expressed in E. coli and that this is not absolutely clear in the paper.
 
 
@@ -142,14 +141,28 @@ The well supported parts are IL4 binding IL4R and the JAK-STAT pathway. The infe
 - IntAct records are in vitro.
 - Databases show that the parts exist and can bind. They do not prove this exact basophil to B cell signal happens in the body.
 
-## References and database links
-- Human Protein Atlas (IL4 and IL4R pages): https://www.proteinatlas.org/
+## References
+
+del Toro, N., Shrivastava, A., Ragueneau, E., Meldal, B., Combe, C., Barrera, E., Perfetto, L., How, K., Ratan, P., Shirodkar, G., Lu, O., Mészáros, B., Watkins, X., Pundir, S., Licata, L., Iannuccelli, M., Pellegrini, M., Martin, M. J., Panni, S., . . . Hermjakob, H. (2022). The IntAct database: Efficient access to fine-grained molecular interaction data. *Nucleic Acids Research, 50*(D1), D648–D653. https://doi.org/10.1093/nar/gkab1006
+
+Hage, T., Sebald, W., & Reinemer, P. (1999). Crystal structure of the interleukin-4/receptor alpha chain complex reveals a mosaic binding interface. *Cell, 97*(2), 271–281. https://doi.org/10.1016/S0092-8674(00)80736-9
+
+LaPorte, S. L., Juo, Z. S., Vaclavikova, J., Colf, L. A., Qi, X., Heller, N. M., Keegan, A. D., & Garcia, K. C. (2008). Molecular and structural basis of cytokine receptor pleiotropy in the interleukin-4/13 system. *Cell, 132*(2), 259–272. https://doi.org/10.1016/j.cell.2007.12.030
+
+Russell, S. M., Keegan, A. D., Harada, N., Nakamura, Y., Noguchi, M., Leland, P., Friedmann, M. C., Miyajima, A., Puri, R. K., Paul, W. E., & Leonard, W. J. (1993). Interleukin-2 receptor gamma chain: A functional component of the interleukin-4 receptor. *Science, 262*(5141), 1880–1883. https://doi.org/10.1126/science.8266078
+
+Szklarczyk, D., Kirsch, R., Koutrouli, M., Nastou, K., Mehryary, F., Hachilif, R., Gable, A. L., Fang, T., Doncheva, N. T., Pyysalo, S., Bork, P., Jensen, L. J., & von Mering, C. (2023). The STRING database in 2023: Protein–protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research, 51*(D1), D638–D646. https://doi.org/10.1093/nar/gkac1000
+
+Türei, D., Valdeolivas, A., Gul, L., Palacio-Escat, N., Klein, M., Ivanova, O., Ölbei, M., Gábor, A., Theis, F., Módos, D., Korcsmáros, T., & Saez-Rodriguez, J. (2021). Integrated intra- and intercellular signaling knowledge for multicellular omics analysis. *Molecular Systems Biology, 17*(3), Article e9923. https://doi.org/10.15252/msb.20209923
+
+Uhlén, M., Karlsson, M. J., Zhong, W., Tebani, A., Pou, C., Mikes, J., Lakshmikanth, T., Forsström, B., Edfors, F., Odeberg, J., Mardinoglu, A., Zhang, C., von Feilitzen, K., Mulder, J., Sjöstedt, E., Hober, A., Oksvold, P., Zwahlen, M., Ponten, F., . . . Brodin, P. (2019). A genome-wide transcriptomic analysis of protein-coding genes in human blood cells. *Science, 366*(6472), Article eaax9198. https://doi.org/10.1126/science.aax9198
+
+UniProt Consortium. (2023). UniProt: The Universal Protein Knowledgebase in 2023. *Nucleic Acids Research, 51*(D1), D523–D531. https://doi.org/10.1093/nar/gkac1052
+
+## Database links
+- Human Protein Atlas: https://www.proteinatlas.org/
 - OmniPath: https://omnipathdb.org/
 - STRING: https://string-db.org/
 - IntAct: https://www.ebi.ac.uk/intact/
 - UniProt IL4 (P05112): https://www.uniprot.org/uniprotkb/P05112
 - UniProt IL4R (P24394): https://www.uniprot.org/uniprotkb/P24394
-- PubMed 10219247: https://pubmed.ncbi.nlm.nih.gov/10219247/
-- PubMed 18243101: https://pubmed.ncbi.nlm.nih.gov/18243101/
-- PubMed 23597562: https://pubmed.ncbi.nlm.nih.gov/23597562/
-- PubMed 8266078: https://pubmed.ncbi.nlm.nih.gov/8266078/
